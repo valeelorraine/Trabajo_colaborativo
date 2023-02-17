@@ -17,13 +17,18 @@
 //                                     S E T   U P 
 //*****************************************************************************************
 void setup() {
-
-
+  // put your setup code here, to run once:
+  pinMode(1, OUTPUT);
+  pinMode(LED_BUILTIN, OUTPUT);
 }
 
 //*****************************************************************************************
 //                             P R I N C I P A L   L O O P 
 //*****************************************************************************************
 void loop() {
-
+  // put your main code here, to run repeatedly:
+  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  digitalWrite(1, HIGH);
+  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW                    // wait for a second
+  digitalWrite(1, LOW);
 }
