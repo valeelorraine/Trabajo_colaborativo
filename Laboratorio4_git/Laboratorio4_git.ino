@@ -6,15 +6,15 @@
 //                          Introducción a GIT
 //                            Laboratorio 4
 
-// Programa para parpadeo de un led y el funcionamiento de un buzzer 
+// Programa para parpadeo de un led y el funcionamiento de un buzzer
 // de forma intermitente.
 
 //*****************************************************************************************
-//                                 V A R I A B L E S 
+//                                 V A R I A B L E S
 //*****************************************************************************************
 
 //*****************************************************************************************
-//                                     S E T   U P 
+//                                     S E T   U P
 //*****************************************************************************************
 void setup() {
   // put your setup code here, to run once:
@@ -23,7 +23,7 @@ void setup() {
 }
 
 //*****************************************************************************************
-//                             P R I N C I P A L   L O O P 
+//                             P R I N C I P A L   L O O P
 //*****************************************************************************************
 void loop() {
   // put your main code here, to run repeatedly:
